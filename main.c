@@ -21,7 +21,7 @@ int devam_et = 1;
     
     printf("%s%s", RENK_MAVI, KALIN_YAZI);
     printf("╭══════════════════════════════════════════════════╮\n");
-    printf("║             METİN ARAMA MOTORU v2.0              ║\n");
+    printf("║                METİN ARAMA MOTORU                ║\n");
     printf("╰══════════════════════════════════════════════════╯\n");
     printf("%s", RENK_SIFIRLA);
     
@@ -61,7 +61,7 @@ int devam_et = 1;
         scanf("%d", &secim);
         if (secim == 0) {
             devam_et = 0;
-            printf("\n%sSistemden cikiliyor... Iyi calismalar!%s\n", RENK_YESIL, RENK_SIFIRLA);
+            printf("\n%sSistemden cikiliyor... %s\n", RENK_YESIL, RENK_SIFIRLA);
         }
     }
     return 0;
