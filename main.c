@@ -10,7 +10,13 @@
 #define KALIN_YAZI "\x1b[1m"
 
 void kmp_search(const char *dosya_yollari[], int dosya_sayisi, const char *aranan_kelime);
-void ekrani_temizle();
+void ekrani_temizle(){
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
+}
 
 int main() {
     
